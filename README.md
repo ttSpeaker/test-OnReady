@@ -1,6 +1,6 @@
 # Test OnReady - API MOVIES
 ## Endpoints:
-### GET /movies/
+### [GET /movies/]
 #### No params:
 Get ALL movies from DB
 #### Optional query params:
@@ -28,10 +28,10 @@ Get ALL movies from DB
 `orderBy` : title, genre_id, year *must have order type*
 `orderType` : `ASC` || `DESC`
 
-### GET /movies/:id :
+### [GET /movies/:id :]
 Get details from particular movie
 
-### POST /movies/
+### [POST /movies/]
 #### Insert new movie into DB with fields:
 `title`: string, mandatory
 
@@ -53,7 +53,7 @@ Get details from particular movie
 
 `actors`:array \['name','name',..]
 
-### PUT /movies/:id :
+### [PUT /movies/:id :]
 #### Edit details from particular movie
 
 `title`: string
@@ -74,7 +74,7 @@ Get details from particular movie
 
 `genre`: string
 
-### DELETE /movies/:id
+### [DELETE /movies/:id]
 #### Virtually delete movie.
 ##
 ## Configuration
