@@ -4,7 +4,7 @@
 #### No params
 Get ALL movies from DB
 #### Optional query params
-title: search by title (or parts of it)
+`<title>`: search by title (or parts of it)
 
 year:  all results for that year
 
