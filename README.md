@@ -29,7 +29,6 @@ Get ALL movies from DB
 `orderType` : `ASC` || `DESC`
 
 ### GET /movies/:id :
-#### id:
 Get details from particular movie
 
 ### POST /movies/
@@ -55,8 +54,7 @@ Get details from particular movie
 `actors`:array \['name','name',..]
 
 ### PUT /movies/:id :
-#### id:
-Edit details from particular movie
+#### Edit details from particular movie
 
 `title`: string
 
@@ -77,9 +75,8 @@ Edit details from particular movie
 `genre`: string
 
 ### DELETE /movies/:id
-#### id:
-Virtually delete movie.
-
+#### Virtually delete movie.
+##
 ## Configuration
 ### Config dotenv:
 
