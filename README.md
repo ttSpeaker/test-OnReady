@@ -1,7 +1,8 @@
-Test OnReady - API MOVIES
+# Test OnReady - API MOVIES
 
 
-Config dotenv:
+## Configuration
+### Config dotenv:
 
 #APP
 PORT = 3030
@@ -14,8 +15,9 @@ DBUSER = (MySQL user)
 DBPASSWORD = (MySQL password)
 DBSCHEMA =OnReadyPelis
 
-Config node_modules:
+### Config node_modules:
 npm install
 
-Inicializar API:
+### Inicializar API:
 npm run start
+
